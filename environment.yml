@@ -3,8 +3,32 @@ prefix: /srv/jupyter
 channels:
   - conda-forge
 dependencies:
-  - jupyterlab=3.0.16
+  - jupyterlab
   - pip:
-      - batchspawner==1.0.1
+      - batchspawner>=1.0.1
   # add your own plugins here
-...
+      - setuptools>=47.1.1
+      - h5py
+      - pickle-mixin
+      - numpy
+      - matplotlib
+      - scipy
+      - numba
+      - sklearn
+      - uproot
+      - awkward1
+      - torch
+      - torchvision
+      - pytorch-lightning
+      - ipywidgets
+      - tqdm
+      - pandas
+      - plotly
+      - IPython
+      - dash
+      - jupyter_dash
+      - cait
+      - jupyterlab_sql
+      - aquirdturtle_collapsible_headings
+      - jupyterlab-system-monitor
+      - lckr-jupyterlab-variableinspector
