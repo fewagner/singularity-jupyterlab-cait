@@ -31,3 +31,4 @@ dependencies:
       - aquirdturtle_collapsible_headings
       - jupyterlab-system-monitor
       - lckr-jupyterlab-variableinspector
+      - jupyterlab_hdf
